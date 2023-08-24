@@ -34,6 +34,9 @@
                 </div>
             </form>
         </div>
+        <div>
+            <a href="/forecast">forecast</a>
+        </div>
         @foreach ($weather as $w)
         <div class="suhu">
             <div class="text-center ">

@@ -7,6 +7,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// weather 
-Route::get('/weather', [WeatherController::class, 'getWeatherToday']);
-Route::post('/city', [WeatherController::class, 'getWeatherToday']);
+// // weather 
+// Route::get('/weather', [WeatherController::class, 'getWeatherToday']);
+// Route::post('/city', [WeatherController::class, 'getWeatherToday']);
+// Route::get('/forecast', [WeatherController::class, 'forecast']);
